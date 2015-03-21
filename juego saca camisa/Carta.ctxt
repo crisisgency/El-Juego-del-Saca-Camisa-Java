@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Carta()
+comment0.text=\r\n\ Inicializa\ una\ carta\ con\ valor\ \=\ 1\ (el\ as...)\ y\ palo\ \=\ ESPADA\ (...de\ espadas)\r\n
+comment1.params=v\ p
+comment1.target=Carta(int,\ int)
+comment1.text=\r\n\ Inicializa\ una\ carta\ con\ valores\ tomados\ como\ par\u00E1metro.\ Si\ el\ par\u00E1metro\ v\ es\ incorrecto,\r\n\ entonces\ el\ valor\ de\ la\ carta\ quedar\u00E1\ en\ 1\ (el\ as...)\ Y\ si\ el\ par\u00E1metro\ p\ es\ incorrecto,\ \r\n\ entonces\ el\ palo\ quedar\u00E1\ valiendo\ ESPADA\ (...de\ espada).\r\n\ @param\ v\ el\ valor\ a\ asignar\ para\ la\ carta\ creada.\r\n\ @param\ p\ el\ palo\ a\ asignar\ para\ la\ carta\ creada.\r\n
+comment2.params=
+comment2.target=int\ getValor()
+comment2.text=\r\n\ Retorna\ el\ valor\ de\ la\ carta.\r\n\ @return\ el\ valor\ de\ la\ carta.\r\n
+comment3.params=
+comment3.target=int\ getPalo()
+comment3.text=\r\n\ Retorna\ el\ palo\ de\ la\ carta\ (que\ corresponde\ a\ una\ de\ las\ constantes\ de\ palo\ declaradas\r\n\ la\ clase\ Baraja).\r\n\ @return\ el\ palo\ de\ la\ carta.\r\n
+comment4.params=v
+comment4.target=void\ setValor(int)
+comment4.text=\r\n\ Cambia\ el\ valor\ de\ la\ carta.\ Si\ nuevo\ valor\ es\ incorrecto,\ se\ dejar\u00E1\ sin\ cambios\ el\ anterior.\ \r\n\ @param\ v\ el\ nuevo\ valor\ de\ la\ carta.\r\n
+comment5.params=p
+comment5.target=void\ setPalo(int)
+comment5.text=\r\n\ Cambia\ el\ palo\ de\ la\ carta.\ Si\ nuevo\ palo\ es\ incorrecto,\ se\ dejar\u00E1\ sin\ cambios\ el\ anterior.\ \r\n\ @param\ p\ el\ nuevo\ palo\ de\ la\ carta.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

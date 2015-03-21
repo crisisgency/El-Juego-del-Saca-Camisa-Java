@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=char\ readChar()
+comment0.text=\r\n\ 1)\ Todos\ los\ m\u00E9todos\ de\ esta\ clase\ son\ est\u00E1ticos,\ y\ por\ lo\ tanto\ pueden\ ser\ invocados\ sin\ tener\ que\ crear\ objetos\ de\ la\ clase.\ Es\ \r\n\ suficiente\ con\ nombrar\ la\ clase\ al\ invocar\ el\ m\u00E9todo\:\ \ \ int\ x\ \=\ Consola.readInt();\r\n
+comment1.params=
+comment1.target=java.lang.String\ readLine()
+comment1.text=\r\n\ Lee\ un\ string\ desde\ teclado.\ El\ string\ termina\ con\ un\ salto\ de\ linea\r\n\ @return\ el\ string\ leido\ (sin\ el\ salto\ de\ linea)\r\n
+comment2.params=
+comment2.target=int\ readInt()
+comment2.text=\r\n\ Lee\ un\ integer\ desde\ teclado.\ La\ entrada\ termina\ con\ un\ salto\ de\ linea\r\n\ @return\ el\ valor\ cargado,\ como\ un\ int\r\n
+comment3.params=
+comment3.target=double\ readDouble()
+comment3.text=\r\n\ Lee\ un\ double\ desde\ teclado.\ La\ entrada\ termina\ con\ un\ salto\ de\ linea\r\n\ @return\ el\ valor\ cargado,\ como\ un\ double\r\n
+numComments=4

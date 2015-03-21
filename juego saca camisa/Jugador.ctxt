@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Jugador()
+comment0.text=\r\n\ Crea\ un\ Jugador\ con\ nombre\ "No\ disponible"\ y\ un\ mazo\ vacio...\r\n
+comment1.params=nom\ mz
+comment1.target=Jugador(java.lang.String,\ Baraja)
+comment1.text=\r\n\ Crea\ un\ jugador\ nombre\ igual\ a\ nom,\ y\ mazo\ igual\ mz.\ Si\ el\ parametro\ nom\ es\r\n\ null,\ el\ nombre\ sera\ "No\ disponible".\ Si\ el\ parametro\ mz\ es\ null,\ el\ mazo\ \r\n\ se\ crea\ vacio.\r\n\ @param\ nom\ el\ nombre\ del\ jugador.\r\n\ @param\ mz\ el\ mazo\ del\ jugador.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment2.text=\r\n\ Accede\ al\ nombre\ del\ Jugador.\r\n\ @return\ el\ nombre\ del\ Jugador.\r\n
+comment3.params=nom
+comment3.target=void\ setNombre(java.lang.String)
+comment3.text=\r\n\ Cambia\ el\ nombre\ del\ Jugador\r\n
+comment4.params=
+comment4.target=Baraja\ getMazo()
+comment4.text=\r\n\ Retorna\ el\ mazo\ del\ jugador.\r\n\ @return\ el\ mazo\ del\ jugador.\r\n
+comment5.params=mz
+comment5.target=void\ setMazo(Baraja)
+comment5.text=\r\n\ Cambia\ mazo\ del\ jugador.\ Si\ el\ nuevo\ mazo\ es\ null,\ entonces\ el\ \r\n\ jugador\ mantiene\ su\ mazo\ anterior.\r\n\ @param\ mz\ el\ nuevo\ mazo.\r\n
+comment6.params=
+comment6.target=Carta\ entregar()
+comment6.text=\r\n\ Simula\ el\ proceso\ de\ entregar\ una\ carta,\ desde\ la\ parte\ superior\ del\ mazo\ \r\n\ del\ jugador.\ La\ carta\ entregada\ se\ retorna.\ El\ metodo\ retorna\ null\ si\ el\ \r\n\ mazo\ del\ jugador\ estaba\ vacio.\ \ \r\n\ @return\ la\ carta\ entregada.\r\n
+comment7.params=
+comment7.target=int\ cantCart()
+numComments=8

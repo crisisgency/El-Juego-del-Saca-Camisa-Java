@@ -1,0 +1,52 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Baraja()
+comment0.text=\r\n\ Crea\ una\ baraja\ no\ vacia,\ con\ un\ mazo\ inicial\ completo\ y\ ordenado\:\r\n\ primero\ todas\ las\ espadas\ del\ 1\ al\ 12,\ luego\ los\ bastos,\ \r\n\ los\ oros,\ y\ finalmente\ las\ copas.\r\n
+comment1.params=mezcle
+comment1.target=Baraja(boolean)
+comment1.text=\r\n\ Crea\ una\ baraja\ no\ vacia\ y\ completa.\ La\ misma\ quedar\u00E1\ ordenada\ a\ menos\ \r\n\ que\ el\ par\u00E1metro\ "mezcle"\ sea\ true,\ en\ cuyo\ caso\ el\ mazo\ ser\u00E1\ \r\n\ mezclado\ en\ forma\ aleatoria.\r\n\ @param\ mezcle\ true\:\ el\ mazo\ se\ crea\ y\ se\ mezcla\ -\ false\:\ el\ mazo\ se\ crea\ y\ queda\ ordenado.\r\n
+comment10.params=
+comment10.target=void\ mezclar()
+comment10.text=\r\n\ Mezcla\ el\ mazo.\ La\ mezcla\ se\ hace\ con\ las\ cartas\ que\ en\ ese\r\n\ momento\ queden\ en\ el\ mazo,\ sin\ garant\u00EDa\ que\ el\ mazo\ est\u00E9\r\n\ completo\ (por\ haber\ usado\ ya\ algunas\ cartas).\r\n
+comment11.params=
+comment11.target=Carta\ pedir()
+comment11.text=\r\n\ Retira\ una\ carta\ del\ mazo,\ y\ la\ retorna\ (a\ menos\ que\ el\ mazo\ est\u00E9\ vac\u00EDo,\ \r\n\ en\ cuyo\ caso\ retornar\u00E1\ null).\ La\ carta\ retirada\ es\ la\ que\ en\ ese\ momento\ \r\n\ est\u00E1\ "encima"\ del\ mazo\ (o\ sea,\ "la\ de\ arriba"...)\ La\ carta\ es\ retirada\ del\ \r\n\ mazo\:\ esto\ quiere\ decir\ que\ una\ nueva\ invocaci\u00F3n\ al\ m\u00E9todo\ pedir(),\ no\ \r\n\ podr\u00E1\ retornar\ nunca\ una\ carta\ que\ ya\ haya\ sido\ devuelta\ (a\ menos\ que\ el\ \r\n\ objeto\ se\ vuelva\ a\ crear,\ o\ se\ invoque\ al\ m\u00E9todo\ juntar()).\r\n\ @return\ la\ primera\ carta\ de\ arriba\ del\ mazo.\r\n
+comment12.params=arriba
+comment12.target=Carta\ pedir(boolean)
+comment12.text=\r\n\ Retira\ una\ carta\ del\ mazo,\ y\ la\ retorna\ (a\ menos\ que\ el\ mazo\ est\u00E9\ vac\u00EDo,\ \r\n\ en\ cuyo\ caso\ retornar\u00E1\ null).\ La\ carta\ retirada\ depende\ del\ valor\ del\ \r\n\ par\u00E1metro\ "arriba"\:\ si\ este\ es\ true,\ la\ carta\ retornada\ es\ la\ que\ en\ ese\ \r\n\ momento\ est\u00E1\ "encima"\ del\ mazo\ (o\ sea,\ "la\ de\ arriba"...)\ Si\ el\ par\u00E1metro\r\n\ es\ false,\ la\ carta\ retornada\ ser\u00E1\ la\ de\ "abajo"\ del\ mazo.\ La\ carta\ es\ \r\n\ retirada\ del\ mazo\:\ esto\ quiere\ decir\ que\ una\ nueva\ invocaci\u00F3n\ al\ m\u00E9todo\ \r\n\ pedir(),\ no\ podr\u00E1\ retornar\ nunca\ una\ carta\ que\ ya\ haya\ sido\ devuelta\ (a\ \r\n\ menos\ que\ el\ objeto\ baraja\ se\ vuelva\ a\ crear,\ o\ se\ invoque\ al\ m\u00E9todo\ juntar()).\r\n\ @return\ la\ primera\ (o\ la\ \u00FAltima)\ carta\ de\ del\ mazo.\r\n\ @param\ arriba\ true\:\ retorna\ la\ carta\ de\ arriba\ -\ false\:\ retorna\ la\ de\ abajo.\r\n
+comment13.params=
+comment13.target=Baraja\ repartir()
+comment13.text=\r\n\ Reparte\ la\ baraja.\ De\ la\ baraja\ inicial\ se\ toma\ la\ mitad\ de\ las\ cartas,\ se\ crea\ \r\n\ con\ ellas\ una\ segunda\ baraja,\ y\ se\ retorna.\ Tanto\ la\ original\ como\ la\ segunda\ baraja,\r\n\ estaran\ ordenadas\ o\ desordenadas\ seg\u00FAn\ haya\ estado\ ordenada\ o\ desordenada\ la\ original.\r\n\ La\ segunda\ baraja\ sera\ del\ mismo\ tipo\ (COMPLETA,\ REDUCIDA)\ que\ la\ original.\ \r\n\ @return\ una\ baraja\ con\ la\ mitad\ de\ las\ cartas\ de\ la\ original\ (si\ es\ que\ la\ original\r\n\ ten\u00EDa\ cartas\ para\ repartir).\r\n
+comment14.params=
+comment14.target=java.lang.String\ toString()
+comment14.text=\r\n\ Redefine\ el\ metodo\ heredado\ desde\ Object.\r\n\ @return\ una\ cadena\ con\ la\ representacion\ de\ la\ baraja.\r\n
+comment15.params=
+comment15.target=boolean\ vacia()
+comment15.text=\r\n\ Permite\ determinar\ si\ la\ baraja\ esta\ vacia.\r\n\ @return\ true\:\ la\ baraja\ esta\ vacia.\r\n
+comment16.params=empty
+comment16.target=void\ init(boolean)
+comment2.params=t
+comment2.target=Baraja(int)
+comment2.text=\r\n\ Crea\ una\ baraja\ no\ vacia\ y\ mezclada.\ El\ par\u00E1metro\ t\ permite\ seleccionar\ entre\ crear\ una\ baraja\ completa\ \r\n\ (t\ \=\ Baraja.COMPLETA),\ reducida\ t\ \=\ Baraja.REDUCIDA).\ \r\n\ @param\ t\ si\ vale\ 0,\ la\ baraja\ se\ crea\ completa.\ Si\ vale\ 1,\ se\ crea\ reducida.\ \r\n
+comment3.params=t\ mezcle
+comment3.target=Baraja(int,\ boolean)
+comment3.text=\r\n\ Crea\ una\ baraja\ no\ vacia.\ La\ misma\ quedar\u00E1\ ordenada\ a\ menos\ que\ el\ par\u00E1metro\ "mezcle"\ sea\ true,\ \r\n\ en\ cuyo\ caso\ el\ mazo\ ser\u00E1\ mezclado\ en\ forma\ aleatoria.\ El\ primer\ par\u00E1metro\ permite\ seleccionar\r\n\ entre\ crear\ una\ baraja\ completa\ (t\ \=\ Baraja.COMPLETA)\ o\ reducida\ t\ \=\ Baraja.REDUCIDA).\ \r\n\ @param\ t\ si\ vale\ 0,\ la\ baraja\ se\ crea\ completa.\ Si\ vale\ 1,\ se\ crea\ reducida.\ Si\ vale\ 3,\ se\ crea\ vacia.\r\n\ @param\ mezcle\ true\:\ el\ mazo\ se\ crea\ y\ se\ mezcla\ -\ false\:\ el\ mazo\ se\ crea\ y\ queda\ ordenado.\ \r\n
+comment4.params=t\ mezcle\ empty
+comment4.target=Baraja(int,\ boolean,\ boolean)
+comment4.text=\r\n\ Crea\ una\ baraja.\ La\ misma\ quedar\u00E1\ ordenada\ a\ menos\ que\ el\ par\u00E1metro\ "mezcle"\ sea\ true,\ \r\n\ en\ cuyo\ caso\ el\ mazo\ ser\u00E1\ mezclado\ en\ forma\ aleatoria.\ El\ primer\ par\u00E1metro\ permite\ seleccionar\r\n\ entre\ crear\ una\ baraja\ completa\ (t\ \=\ Baraja.COMPLETA)\ o\ reducida\ t\ \=\ Baraja.REDUCIDA).\ El\ \r\n\ parametro\ empty\ indica\ si\ la\ baraja\ debe\ crearse\ vacia\ (sin\ carta\ alguna\:\ empty\ \=\ true)\ o\ no.\ \r\n\ Si\ la\ baraja\ se\ crea\ vacia,\ no\ contendr\u00E1\ carta\ alguna\ y\ debera\ llenarse\ luego,\ invocando\ a\ alguno\ de\ los\ \r\n\ metodos\ que\ la\ clase\ provee.\r\n\ @param\ t\ si\ vale\ 0,\ la\ baraja\ se\ crea\ completa.\ Si\ vale\ 1,\ se\ crea\ reducida.\ \r\n\ @param\ mezcle\ true\:\ el\ mazo\ se\ crea\ y\ se\ mezcla\ -\ false\:\ el\ mazo\ se\ crea\ y\ queda\ ordenado.\ No\ tiene\ efecto\ \r\n\ si\ la\ baraja\ se\ crea\ vacia.\r\n\ @param\ empty\ true\:\ la\ baraja\ se\ crea\ vacia\ (sin\ cartas).\ \r\n
+comment5.params=
+comment5.target=int\ cantidad()
+comment5.text=\r\n\ Retorna\ la\ cantidad\ de\ cartas\ que\ quedan\ en\ esa\ Baraja\r\n
+comment6.params=c
+comment6.target=boolean\ agregar(Carta)
+comment6.text=\r\n\ Agrega\ una\ carta\ a\ la\ baraja.\ El\ metodo\ verifica\ que\ la\ carta\ no\ este\ ya\ en\ esa\r\n\ Baraja,\ y\ no\ agrega\ la\ carta\ si\ la\ misma\ esta\ repetida.\ Retorna\ true\ si\ pudo\ \r\n\ agregar\ la\ carta,\ o\ false\ en\ caso\ contrario.\ Este\ metodo\ deberia\ usarse\ en\ casos\r\n\ en\ que\ la\ Baraja\ comenzo\ vacia,\ y\ debe\ ir\ llenandose\ poco\ a\ poco\ (por\ ejemplo,\ \r\n\ para\ representar\ el\ conjunto\ de\ cartas\ que\ se\ descartan\ en\ la\ mesa...)\r\n\ @param\ la\ carta\ que\ debe\ agregarse.\r\n\ @return\ true\ si\ la\ carta\ pudo\ agregarse.\r\n
+comment7.params=
+comment7.target=void\ juntar()
+comment7.text=\r\n\ Junta\ nuevamente\ todas\ las\ cartas\ en\ el\ mazo,\ dej\u00E1ndolo\ desordenado.\r\n
+comment8.params=b
+comment8.target=void\ juntar(Baraja)
+comment8.text=\r\n\ Junta\ con\ esta\ Baraja\ las\ cartas\ de\ la\ Baraja\ b.\ La\ Baraja\ original\r\n\ (this)\ sera\ igual\ a\ la\ union\ de\ this\ con\ b.\ Las\ cartas\ se\ agregan\ al\ \r\n\ final\ de\ la\ Baraja\ original.\ La\ Baraja\ b\ quedara\ vacia.\r\n\ @param\ b\ la\ Baraja\ a\ unir\ con\ la\ original.\ \r\n
+comment9.params=ordene
+comment9.target=void\ juntar(boolean)
+comment9.text=\r\n\ Junta\ nuevamente\ todas\ las\ cartas\ en\ el\ mazo.\ El\ mazo\ quedar\u00E1\ ordenado\r\n\ si\ el\ par\u00E1metro\ "ordene"\ es\ true.\ De\ lo\ contrario,\ quedar\u00E1\ desordenado.\r\n\ @param\ ordene\ true\:\ el\ mazo\ se\ junta\ y\ se\ ordena\ -\ false\:\ se\ junta\ y\ queda\ desordenado.\r\n
+numComments=17

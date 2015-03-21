@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GestorJuego()
+comment0.text=\r\n\ Crea\ un\ objeto,\ con\ baraja\ completa\ y\ mezclada.\ Los\ nombres\ de\ los\ jugadores\ \r\n\ ser\u00E1n\ "Humano"\ y\ "Computadora".\ Abre\ la\ consola\ de\ graficos.\r\n
+comment1.params=nomh\ nomc
+comment1.target=GestorJuego(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Crea\ un\ objeto,\ con\ baraja\ completa\ y\ mezclada.\ Los\ nombres\ de\ los\ jugadores\r\n\ ser\u00E1n\ los\ informados\ en\ los\ parametros\ nomh\ y\ nomc.\ Los\ jugadores\ arrancan\ \r\n\ cada\ uno\ con\ la\ mitad\ de\ la\ baraja.\ Abre\ la\ consola\ de\ graficos.\r\n\ @param\ nomh\ el\ nombre\ del\ jugador\ humano.\r\n\ @param\ nomc\ el\ nombre\ del\ jugador\ virtual.\r\n
+comment2.params=j
+comment2.target=Carta\ pedir(Jugador)
+comment2.text=\r\n\ Pide\ una\ carta\ al\ Jugador\ entrado\ como\ par\u00E1metro.\ El\ metodo\ tambien\ \r\n\ despliega\ la\ carta\ en\ la\ consola\ de\ graficos.\ Si\ el\ jugador\ puede\ \r\n\ entregar\ una\ carta,\ el\ metodo\ esa\ carta.\ Si\ el\ jugador\ no\ puede\r\n\ entregar\ una\ carta\ por\ estar\ vacio\ su\ mazo,\ el\ metodo\ null.\r\n\ @param\ j\ el\ Jugador\ al\ que\ se\ le\ pide\ la\ carta.\r\n\ @return\ la\ carta\ entregada\ por\ el\ jugador.\r\n
+comment3.params=
+comment3.target=java.lang.String\ jugar()
+comment3.text=\r\n\ Lanza\ el\ juego.\ Simula\ el\ proceso\ completo,\ mostrando\ las\ cartas\r\n\ y\ cambiando\ el\ Jugador\ segun\ a\ quien\ le\ toque\ el\ turno.\ El\ proceso\r\n\ termina\ cuando\ uno\ de\ los\ dos\ jugadores\ pierde.\ El\ metodo\ retorna\ \r\n\ el\ nombre\ del\ jugador\ que\ gano\ el\ juego.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Retorna\ una\ cadena\ con\ los\ nombres\ de\ los\ jugadores.\r\n\ @return\ una\ cadena\ con\ los\ nombres\ de\ los\ jugadores.\r\n
+numComments=5
